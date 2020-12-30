@@ -43,24 +43,24 @@ $('#add-BLUEbutton').on('click', function(){
     var $note = $(getBLUENote());
     appendFunctions($note);
 
-    $('#sticky-note-container').append($note);
+    $('#sticky-bluenote-container').append($note);
 });
 
 $('#add-REDbutton').on('click', function(){
     var $note = $(getREDNote());
     appendFunctions($note);
 
-    $('#sticky-note-container').append($note);
+    $('#sticky-rednote-container').append($note);
 });
 $('#add-GREENbutton').on('click', function(){
     var $note = $(getGREENNote());
     appendFunctions($note);
 
-    $('#sticky-note-container').append($note);
+    $('#sticky-greennote-container').append($note);
 });
 $('#add-YELLOWbutton').on('click', function(){
     var $note = $(getYELLOWNote());
     appendFunctions($note);
 
-    $('#sticky-note-container').append($note);
+    $('#sticky-yellownote-container').append($note);
 });
