@@ -1,0 +1,49 @@
+body {
+}
+h1 {
+  color: yellow;
+}
+.bluenote {
+  border-radius:10px;
+  background-color: #88c1ff;
+  padding: 20px;
+  display: inline-block;
+}
+.bluenote > input[type="text"] {
+  width: 300px;
+  height: 150px;
+  background-color: #88c1ff;
+}
+.rednote {
+  border-radius:10px;
+  background-color: #ff4c4e;
+  padding: 20px;
+  display: inline-block;
+}
+.rednote > input[type="text"] {
+  width: 300px;
+  height: 150px;
+  background-color: #ff4c4e;
+}
+.greennote {
+  border-radius:10px;
+  background-color: #9cec78;
+  padding: 20px;
+  display: inline-block;
+}
+.greennote > input[type="text"] {
+  width: 300px;
+  height: 150px;
+  background-color: #9cec78;
+}
+.yellownote {
+  border-radius:10px;
+  background-color: #ffc14e;
+  padding: 20px;
+  display: inline-block;
+}
+.yellownote > input[type="text"] {
+  width: 300px;
+  height: 150px;
+  background-color: #ffc14e;
+}
